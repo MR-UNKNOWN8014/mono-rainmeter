@@ -2,7 +2,7 @@
 
 A minimalist [Rainmeter](https://www.rainmeter.net/) clock with an optional music bar. A greeting, a big day name, the date and time, two thin lines. Black or white, nothing else on screen.
 
-![Mono clock and music bar on a dark wallpaper](screenshots/preview-clock.png)
+![Mono Preview Image](screenshots/preview-clock.png)
 
 The Settings panel, with the same clock behind it:
 
@@ -35,14 +35,14 @@ The Settings panel, with the same clock behind it:
 
 Open it from `Settings\Settings.ini`, or right-click the clock or music bar and choose **Mono settings**.
 
-| Setting | Options | What it does |
-| --- | --- | --- |
-| **Lines** | Horizontal, Vertical | Swaps the two thin lines between side-by-side and above/below |
-| **Music** | Off, Bars, Bars + Title | Off unloads the music bar. Bars shows the visualizer. Bars + Title adds the current track |
-| **Color** | Black, White | Colour of all text, lines and bars |
-| **Size** | 50% to 200% | Scales the whole clock (not the music bar). Click the track or press and drag |
-| **Clock** | Locked, Move freely | Move freely shows a drag box so you can reposition it. Locked pins it in place |
-| **Music bar** | Locked, Move freely | Same, for the music bar |
+| Setting       | Options                 | What it does                                                                              |
+| ------------- | ----------------------- | ----------------------------------------------------------------------------------------- |
+| **Lines**     | Horizontal, Vertical    | Swaps the two thin lines between side-by-side and above/below                             |
+| **Music**     | Off, Bars, Bars + Title | Off unloads the music bar. Bars shows the visualizer. Bars + Title adds the current track |
+| **Color**     | Black, White            | Colour of all text, lines and bars                                                        |
+| **Size**      | 50% to 200%             | Scales the whole clock (not the music bar). Click the track or press and drag             |
+| **Clock**     | Locked, Move freely     | Move freely shows a drag box so you can reposition it. Locked pins it in place            |
+| **Music bar** | Locked, Move freely     | Same, for the music bar                                                                   |
 
 Settings are written to `Mono\@Resources\Variables.inc`, so you can also edit that file by hand and refresh the skins.
 
